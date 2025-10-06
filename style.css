@@ -138,39 +138,43 @@ img{
         width: 100%;
     };
 }
-@media screen and (min-width: 300px) and (max-width: 767px){
+@media screen and (max-width: 767px){
     .cabecalho-logo{
         width: 50px;
     }
+
+    .cabecalho-logo img{
+        width: 100%
+    }
     .cabecalho-darkmode img{
-        width: 12px;
+        width: 20px;
     }
     main{
         height: 100vh;
     }
     .principal{
-        gap: 50px;
+        gap: 40px;
     }
     .box-texto{
-        margin-top: 50px;
-        width: 180px;
-        height: 90px;
+        margin-top: 30px;
+        width: 90%;
+        height: auto;
         gap: 20px
     }
     .box-texto h1{
-        line-height: 20px;
-        font-size: 18px;
+        line-height: 36px;
+        font-size: 32px;
     }
     .box-texto p{
-        font-size: 8px;
+        font-size: 16px;
     }
 
     a{
-        padding: 2px 6px;
-        font-size: 8px;
+        padding: 5px 10px;
+        font-size: 16px;
     }
 
     img{
-        width: 60%;
+        max-width: 60%;
     };
 }
